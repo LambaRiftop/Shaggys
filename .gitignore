@@ -1,0 +1,36 @@
+# Ignorar el directorio de compilación de Rust
+/target/
+
+# Ignorar directorios de compilación de Tauri
+/src-tauri/target/
+/src-tauri/bundled/
+
+# Ignorar archivos de configuración de editores y sistemas operativos
+**/*.rs.bk
+**/*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignorar archivos de registro y temporales
+*.log
+tmp/
+temp/
+
+# Ignorar binarios y ejecutables
+*.exe
+*.dll
+*.so
+*.dylib
+*.pkg
+*.deb
+*.rpm
+*.msi
+
+# Ignorar node_modules si en algún momento utilizas Node.js
+node_modules/
+
+# Ignorar archivos de entorno
+.env
